@@ -1,1 +1,5 @@
-
+git init — initializes git in your folder on your computer
+git add . — adds all the files in the folder, the period is important
+git commit -m "first commit" — committing to Github with a message of “first commit”
+git remote add origin https://github.com/laurencebradford/laurencebradford.github.io.git — this command is only done when adding a new repository to your folder. So this is only done this first time, not when making edits in future.
+git push -u origin master — pushes changes to your Github repository, in the “master” branch.
